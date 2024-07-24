@@ -12,12 +12,14 @@ import Contact from './Components/Contact';
 import Cards from './Components/Cards';
 import ReastrunMenu from './Components/ReastrunMenu';
 
+
 import { createBrowserRouter, Outlet, RouterProvider } from "react-router-dom";
 import Footer from './Components/Footer';
 
 
 
    const App=()=>{
+  
       return(
             <React.Fragment>
                 <Navbar />
@@ -62,9 +64,15 @@ import Footer from './Components/Footer';
           path: "/Reastrand/:productId",
           element: <ReastrunMenu />,
         },
-      ]
+      ],
+    
     }
-  ]);
+  ],
+  {
+    basename: '/react-web'
+  }
+
+);
   
 
 
@@ -73,7 +81,7 @@ import Footer from './Components/Footer';
 
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-  <React.StrictMode>
-      <RouterProvider router={appRouter} />
+  <React.StrictMode  basename="/react-web" >
+      <RouterProvider    router={appRouter} />
   </React.StrictMode>,
 )

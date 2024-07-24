@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import img from '../public/fool.jpg'; // Ensure the path is correct
+import img from '../docs/fool.jpg'; // Ensure the path is correct
 import { Link } from 'react-router-dom';
 export default function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);

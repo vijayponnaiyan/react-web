@@ -1,11 +1,10 @@
 
-{ "rewrites": 
-[
-  { 
-  "source": "/(.*)",
-   "destination": "/intex.html"
-   }
-   
-   ] 
-  }
+{
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/"
+    }
+  ]
+}
 

@@ -68,15 +68,7 @@ import Footer from './Components/Footer';
     
     }
   ],
-<<<<<<< HEAD:src/main.jsx
- {
-  basename :"/"
- }
-=======
-  {
-    basename: '/'
-  }
->>>>>>> origin/main:react-app/src/main.jsx
+
 
 );
   

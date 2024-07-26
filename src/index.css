@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 
-@tailwind base;
+
 
 @layer base {
   html {
@@ -11,9 +11,7 @@
   }
   html.dark {
     @apply text-neutral-50;
-    @apply bg-neutral-800;
+  
   }
 }
 
-@tailwind components;
-@tailwind utilities;

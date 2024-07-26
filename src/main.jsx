@@ -68,9 +68,9 @@ import Footer from './Components/Footer';
     
     }
   ],
-  {
-    basename: '/react-web'
-  }
+ {
+  basename :"/"
+ }
 
 );
   
